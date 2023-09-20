@@ -1,7 +1,7 @@
 # ubuntu-wordpress
 
-create database wordpresss;
+create database wordpress;
 show databases;
-create user "wordpresss"@"%" identified by "password";
-grant all privileges on wordpresss.* to "wordpress"@"%";
+create user "wordpress"@"%" identified by "password";
+grant all privileges on wordpress.* to "wordpress"@"%";
 exit
